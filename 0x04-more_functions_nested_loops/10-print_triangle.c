@@ -4,7 +4,7 @@
  * print_triangle - prints a triangle
  * @n: size of the triangle
  */
-void print_triangle(int size)
+void print_triangle(int n)
 {
 	int h, tri;
 
@@ -13,7 +13,6 @@ void print_triangle(int size)
 		for (h = 1; h <= n; h++)
 		{
 			for (tri = n - h; tri > 0; tri--)
-
 				_putchar(' ');
 
 			for (tri = 0; tri < h; tri++)
