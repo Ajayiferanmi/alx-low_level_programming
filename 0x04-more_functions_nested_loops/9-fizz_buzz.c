@@ -16,8 +16,9 @@ int main(void)
 			printf("fizz");
 		if (n % 5 == 0)
 			printf("buzz");
-		printf("%d", n);
+		if (n % 3 != 0 && n % 5 != 0)
+			printf("%d", n);
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
