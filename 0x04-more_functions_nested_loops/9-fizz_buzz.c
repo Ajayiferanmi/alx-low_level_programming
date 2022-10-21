@@ -3,7 +3,7 @@
 /**
  * main - print fizzbuzz
  * Return: Always 0
- */'
+ */
 int main(void)
 {
 	int n;
@@ -18,6 +18,6 @@ int main(void)
 			printf("buzz");
 		printf("%d", n);
 	}
-	printf("\n");
+	printf('n');
 	return (0);
 }
